@@ -1,0 +1,283 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4376868794264321342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3876106960043622447}
+  - component: {fileID: 3650577469049412539}
+  - component: {fileID: 3675812717060256455}
+  m_Layer: 7
+  m_Name: PF_Beam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3876106960043622447
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4376868794264321342}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.02, y: 0.92, z: 0.57}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!2083052967 &3650577469049412539
+VisualEffect:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4376868794264321342}
+  m_Enabled: 1
+  m_Asset: {fileID: 8926484042661614526, guid: c114786ed009dc843bec94b443b085f4, type: 3}
+  m_InitialEventName: OnPlay
+  m_InitialEventNameOverriden: 0
+  m_StartSeed: 0
+  m_ResetSeedOnPlay: 1
+  m_AllowInstancing: 1
+  m_ResourceVersion: 1
+  m_PropertySheet:
+    m_Float:
+      m_Array:
+      - m_Value: 0.45
+        m_Name: Size beam
+        m_Overridden: 1
+      - m_Value: 5
+        m_Name: Height
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: Speed
+        m_Overridden: 1
+      - m_Value: 0.25
+        m_Name: Delay Beam
+        m_Overridden: 1
+      - m_Value: 2.5
+        m_Name: Size pentacle
+        m_Overridden: 1
+      - m_Value: 2
+        m_Name: LifeTime Beam
+        m_Overridden: 1
+      - m_Value: 60
+        m_Name: Count
+        m_Overridden: 1
+      - m_Value: 1.5
+        m_Name: Size butter
+        m_Overridden: 1
+    m_Vector2f:
+      m_Array: []
+    m_Vector3f:
+      m_Array: []
+    m_Vector4f:
+      m_Array:
+      - m_Value: {x: 6.8902836, y: 2.1013098, z: 9.518755, w: 1}
+        m_Name: Color Core
+        m_Overridden: 1
+      - m_Value: {x: 0.27226955, y: 0, z: 0.6509434, w: 1}
+        m_Name: Color Back
+        m_Overridden: 1
+      - m_Value: {x: 3.7403562, y: 0, z: 7.999999, w: 1}
+        m_Name: Color
+        m_Overridden: 1
+      - m_Value: {x: 2.5010073, y: 0.87721896, z: 4.7593794, w: 0}
+        m_Name: Color voronoi1
+        m_Overridden: 1
+      - m_Value: {x: 0.5891051, y: 0, z: 1.7824348, w: 0}
+        m_Name: Color vornoi 2
+        m_Overridden: 1
+      - m_Value: {x: 0.81824934, y: 0.66415095, z: 1, w: 1}
+        m_Name: Color 2
+        m_Overridden: 1
+    m_Uint:
+      m_Array: []
+    m_Int:
+      m_Array: []
+    m_Matrix4x4f:
+      m_Array: []
+    m_AnimationCurve:
+      m_Array:
+      - m_Value:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.056106023
+            value: 1.1518128
+            inSlope: 1.0443475
+            outSlope: 1.0443475
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.15789795
+            value: 0.8381378
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.22920315
+            value: 1.0475861
+            inSlope: 1.474751
+            outSlope: 1.474751
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.77022254
+          - serializedVersion: 3
+            time: 0.33312008
+            value: 0.9524139
+            inSlope: -0.2455723
+            outSlope: -0.2455723
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.41789606
+            value: 1.0589043
+            inSlope: -0.3136968
+            outSlope: -0.3136968
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.49129218
+            value: 0.9456543
+            inSlope: -0.3684486
+            outSlope: -0.3684486
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.57140124
+            value: 1.0481545
+            inSlope: -0.40407392
+            outSlope: -0.40407392
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.64866936
+            value: 0.9484161
+            inSlope: -0.42195565
+            outSlope: -0.42195565
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.72539806
+            value: 1.0524346
+            inSlope: -0.42825207
+            outSlope: -0.42825207
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.7843975
+            value: 0.9478118
+            inSlope: -2.5262947
+            outSlope: -2.5262947
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.91697586
+            value: 1.0135796
+            inSlope: -3.1786695
+            outSlope: -3.1786695
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_Name: Growing
+        m_Overridden: 1
+    m_Gradient:
+      m_Array: []
+    m_NamedObject:
+      m_Array:
+      - m_Value: {fileID: 2800000, guid: f2e821e153fa6e243a10ac8d21956cd5, type: 3}
+        m_Name: Base Color Map
+        m_Overridden: 1
+    m_Bool:
+      m_Array: []
+--- !u!73398921 &3675812717060256455
+VFXRenderer:
+  serializedVersion: 1
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4376868794264321342}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
